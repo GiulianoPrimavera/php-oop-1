@@ -34,7 +34,7 @@ class Movie {
     // }
 
     public function buildCover(){
-        return $this->cover = $this->title . " " . $this->language . " " . $this->votes;
+        return $this->cover = $this->title . ", " . $this->language . ", " . $this->votes;
     }
 }
 ?>
